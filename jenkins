@@ -24,7 +24,7 @@ pipeline {
                     // Send email notification after tests
                     emailext subject: "Unit and Integration Tests Completed",
                             body: "The unit and integration tests stage has completed.",
-                            to: "jashanpreets2344@gmail.com@gmail.com",
+                            to: "jashanpreets2344@gmail.com",
                             attachLog: true
                 }
             }
